@@ -1,6 +1,30 @@
 # CourseRecommender
 
-Recommender
+Part 1
+Problem 1 (1 Point)
+
+[src/Course.js]
+
+For this problem, you will be creating and styling a way to represent the course data to the user.
+
+There is an empty div currently being displayed for each course. You will display relevant information about each course instead of this empty div.
+
+For the rest of the React unit, we will be using react-bootstrap (Links to an external site.) for styling, and it is already installed in the React project for your use. You may alternatively use Bootstrap (Links to an external site.) or CSS for stlying if desired.
+
+You will be graded on the content you display and the style in which you display it, as well as your code quality.
+Problem 2 (1 Point)
+
+[src/SearchAndFilter.js] 
+
+For this problem, you will be designing a search and filter method to decide which courses to display given a variety of inputs:
+
+    Credits: only display courses that have an amount of credits within the selected credit range
+    Subject: only display courses that match the selected subject
+    Search: only display courses that have a keyword that has the search contents as a substring
+
+Providing multiple fields (e.g. credits and subject) will return the intersection of the sets. You will be graded on the above functionality, and the code quality.
+
+Part 2
 Problem 1 (1 Point)
 
 For this problem, you will be creating a cart that users can add courses to and remove courses from.
@@ -60,6 +84,7 @@ For the entire search and filter process, the intersection between the result of
 
 The user should be able to switch the tag logic between the two methods described above, and the current logic should be displayed to the user.
 
+Part 3
 Problem 1 (1.25 points)
 
     Fetch data from server: https://mysqlcs639.cs.wisc.edu/students/5022025924/classes/completedLinks to an external site.
